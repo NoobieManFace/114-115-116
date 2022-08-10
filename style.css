@@ -1,0 +1,34 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: rgb(255, 132, 0);
+}
+
+canvas {
+    animation-name: You;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes You {
+    from {
+        box-shadow: 10px 10px 50px rgb(6, 58, 213);
+    }
+
+    to {
+        box-shadow: 10px 10px 50px rgb(0, 255, 0);
+    }
+    from {
+        box-shadow: 10px 10px 50px rgb(255, 247, 0);
+    }
+    to {
+        box-shadow: 10px 10px 50px rgb(255, 0, 230);
+    }
+}
+body{
+background-size:cover;
+background-position:center;
+}
